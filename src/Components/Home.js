@@ -1,48 +1,10 @@
 import React from "react";
-// import { useInView } from 'react-intersection-observer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 const Home = () => {
-  // const staticContent = [
-  //   {
-  //     heading: "Department Of<br/>Computer Science &<br/>Engineering Offers a summer internship by the best professionals. &<br/> From 15th April to 24th May",
-  //     link: "https://forms.gle/EYDz9tTzWM4AvGCa7",
-  //     buttonText: "Register Now",
-  //   },
-  // ];
-
-  // const [currentItemIndex, setCurrentItemIndex] = useState(0);
-  // const [lineIndex, setLineIndex] = useState(0);
-  // const [ref, inView] = useInView({
-  //   triggerOnce: true,
-  //   rootMargin: '-50px 0px', // Adjust root margin based on your design
-  // });
-
-  // useEffect(() => {
-  //   const intervalId = setInterval(() => {
-  //     if (lineIndex < staticContent[currentItemIndex].text.length - 1) {
-  //       setLineIndex((prevIndex) => prevIndex + 1);
-  //     } else {
-  //       setLineIndex(0);
-  //       setCurrentItemIndex((prevIndex) => (prevIndex + 1) % staticContent.length);
-  //     }
-  //   }, 2500);
-
-  //   return () => clearInterval(intervalId);
-  // }, [lineIndex, currentItemIndex]);
-
-  // // Reset animation when not in view
-  // useEffect(() => {
-  //   if (!inView) {
-  //     setCurrentItemIndex(0);
-  //     setLineIndex(0);
-  //   }
-  // }, [inView]);
-
   return (
     <div
-      // ref={ref}
       className={`home-container`}
       style={{
         background: `url("../Assets/entrance.jpg")`,
@@ -66,7 +28,7 @@ const Home = () => {
       >
         <h1 className="primary-heading" style={{ textAlign: 'center', whiteSpace: 'pre-line' }}>
           Department Of<br />
-          B i o t e c h n o l o g y <br /></h1>
+          M E C H A N I C A L<br /></h1>
         <h2 style={{ textAlign: 'center', whiteSpace: 'pre-line', fontSize: '2rem', color: '#4c4c4c' }}>
           Offers a summer internship by the best professionals. <br />
         </h2>

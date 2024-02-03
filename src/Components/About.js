@@ -7,63 +7,47 @@ const About = () => {
   const youtubeChannelURL = "https://www.youtube.com/@st.josephsgroupofinstituti7921/videos";
 
   return (<>
-  <div className="about-section-container" style={{ marginTop: '1vh' }}>
+    <div className="about-section-container" style={{ marginTop: '1vh' }}>
       <div className="about-background-image-container">
         <img src={AboutBackground} alt="" />
       </div>
       <div className="about-section-image-container" >
-        {/* <iframe width="100%"
-          height="100%" src="https://www.youtube.com/embed/SrGA0u3y-Is?si=isnY1cf_ZtMB_iFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+
         <video height="400" controls id="video">
           <source src={video} type="video/mp4" />
-              Your browser does not support the video tag.
+          Your browser does not support the video tag.
         </video>
-    </div>
-          <div className="about-section-text-container" style={{ lineHeight: '1.5' }}>
-            {/* <p className="primary-subheading">About</p> */}
-            <h1 className="primary-heading">About Our Department</h1>
-            <ul>
-              <li class="primary-text">Accredited by NBA Since 2002</li>
-              <li class="primary-text">Anna University recognized Research centre</li>
-              <li class="primary-text">Lab Equipment worth 1.68 crores</li>
-              <li class="primary-text">MOU with 5 companies / Institutes</li>
-              <li class="primary-text">3 Anna University Recognized Supervisors</li>
-              <li class="primary-text">327 Journal Publications</li>
-              <li class="primary-text">13 patents published and 2 patents awarded</li>
-              <li class="primary-text">Received 1.78 crores Fund from various government organizations</li>
-              <li class="primary-text">60% students placements and 40% Higher Studies</li>
-              <li class="primary-text">Total 161 Anna University rank holders with 11 gold medals and 10 silver medals</li>
-              <li class="primary-text">Strong Industrial collaboration and Alumni interaction for placements</li>
-              <li class="primary-text">Several clubs & student chapters for promoting Co-Curricular activities</li>
-              <li class="primary-text">Several value-added courses are conducted beyond the curriculum</li>
-              <li class="primary-text">Facilitating Industrial Visits and NGOs for the comprehensive development of the students</li>
-            </ul>
-
-
-            <div className="about-buttons-container">
-              {/* <a href="https://www.stjosephscse.com/#/"
-                target="_blank"
-                style={{
-                  color: "white",
-                  textDecoration: "none",
-                }}
-                rel="noopener noreferrer" >
-                <button className="secondary-button">Home</button>
-              </a> */}
-              <a
-                href={youtubeChannelURL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="watch-video-button"
-                style={{
-                  textDecoration: "none",
-                }}
-              >
-                <BsFillPlayCircleFill /> Watch Video
-              </a>
-            </div>
-          </div>
       </div>
+      <div className="about-section-text-container " style={{ lineHeight: '1.5' }}>
+          <h1 className="primary-heading text-center">About Our Department</h1>
+          <ul className="list-group list-group-flush">
+            <li className="list-group-item primary-text">Established in 1998, our Mechanical Engineering Department has seen remarkable growth, now admitting 180 students annually, up from an initial intake of 40</li>
+            <li className="list-group-item primary-text">Accredited by NBA in 2007, affirming our commitment to quality education</li>
+            <li className="list-group-item primary-text">Consistently achieving 119 university ranks since inception, reflecting our academic excellence</li>
+            <li className="list-group-item primary-text">Our faculty comprises 36 members, including 15 Ph.D. holders and 12 research supervisors, guiding 49 research scholars</li>
+            <li className="list-group-item primary-text">Recognized as a Research Centre by Anna University, empowering innovative research initiatives</li>
+            <li className="list-group-item primary-text">Equipped with state-of-the-art laboratories facilitating hands-on learning and innovation</li>
+            <li className="list-group-item primary-text">Encouraging student innovation, resulting in multiple projects honored as Best Innovative Projects by INAE</li>
+            <li className="list-group-item primary-text">Our graduates secure placements in renowned national and international industries, with many pursuing higher studies globally</li>
+            <li className="list-group-item primary-text">Committed to nurturing academic excellence, research, and innovation to prepare students for success in the dynamic field of mechanical engineering</li>
+          </ul>
+
+
+        <div className="about-buttons-container">
+          <a
+            href={youtubeChannelURL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="watch-video-button"
+            style={{
+              textDecoration: "none",
+            }}
+          >
+            <BsFillPlayCircleFill /> Watch Video
+          </a>
+        </div>
+      </div>
+    </div>
   </>
 
   );

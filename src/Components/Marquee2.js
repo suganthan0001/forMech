@@ -1,95 +1,35 @@
 import React from 'react';
 import './Marquee.css'; 
-import i1 from '../images/i1.png';
-import i2 from '../images/i2.png';
-import i3 from '../images/i3.png';
-import i4 from '../images/i4.png';
-import i5 from '../images/i5.png';
-import i6 from '../images/i6.png';
-import i7 from '../images/i7.png';
-import i8 from '../images/i8.png';
-import i9 from '../images/i9.png';
-import i10 from '../images/i10.png';
-import i11 from '../images/i11.png';
-import i12 from '../images/i12.png';
-import i13 from '../images/i13.png';
-import i14 from '../images/i14.png';
-import i15 from '../images/i15.png';
-import i16 from '../images/i16.png';
-import i17 from '../images/i17.png';
-import i18 from '../images/i18.png';
-import i19 from '../images/i19.png';
-import i20 from '../images/i20.png';
-import i21 from '../images/i21.png';
+import s1 from '../images/s1.png';
+import s2 from '../images/s2.png';
+import s3 from '../images/s3.png';
+import s4 from '../images/s4.png';
+import s5 from '../images/s5.png';
+import s6 from '../images/s6.png';
+import s7 from '../images/s7.png';
 
 
 const MarqueeComponent = () => {
     return (
-        <div className="marquee-container">
-            <h2 className="marquee-heading" style={{}}>Our Reputable Recruiters</h2>
-            <div className="marquee-content">
+        <div className="marquee-container" style={{marginTop: "0"}}>
+            <h2 className="marquee-heading" style={{}}>Our Trainers</h2>
+            <div className="marquee-content slow">
                 <div className="marquee-item">
-                    <img src={i1} alt="image1" />
+                    <img src={s1} alt="image1" />
                 </div>
                 <div className="marquee-item">
-                    <img src={i2} alt="image2" />
+                    <img src={s2} alt="image1" />
                 </div>
                 <div className="marquee-item">
-                    <img src={i3} alt="image3" />
-                </div>
-                <div className="marquee-item">
-                    <img src={i4} alt="image4" />
-                </div>
-                <div className="marquee-item">
-                    <img src={i5} alt="image4" />
-                </div>
-                <div className="marquee-item">
-                    <img src={i6} alt="image6" />
-                </div>
-                <div className="marquee-item">
-                    <img src={i7} alt="image7" />
-                </div>
-                <div className="marquee-item">
-                    <img src={i8} alt="image4" />
-                </div>
-                <div className="marquee-item">
-                    <img src={i9} alt="image9" />
-                </div>
-                <div className="marquee-item">
-                    <img src={i10} alt="image10" />
-                </div>
-                <div className="marquee-item">
-                    <img src={i11} alt="image11" />
-                </div>
-                <div className="marquee-item">
-                    <img src={i12} alt="image12" />
-                </div>
-                <div className="marquee-item">
-                    <img src={i13} alt="image4" />
-                </div>
-                <div className="marquee-item">
-                    <img src={i14} alt="image14" />
-                </div>
-                <div className="marquee-item">
-                    <img src={i15} alt="image4" />
-                </div>
-                <div className="marquee-item">
-                    <img src={i16} alt="image16" />
-                </div>
-                <div className="marquee-item">
-                    <img src={i17} alt="image4" />
-                </div>
-                <div className="marquee-item">
-                    <img src={i18} alt="image4" />
-                </div>
-                <div className="marquee-item">
-                    <img src={i19} alt="image4" />
-                </div>
-                <div className="marquee-item">
-                    <img src={i20} alt="image20" />
-                </div>
-                <div className="marquee-item">
-                    <img src={i21} alt="image21" />
+                    <img src={s3} alt="image1" />
+                </div><div className="marquee-item">
+                    <img src={s4} alt="image1" />
+                </div><div className="marquee-item">
+                    <img src={s5} alt="image1" />
+                </div><div className="marquee-item">
+                    <img src={s6} alt="image1" />
+                </div><div className="marquee-item end">
+                    <img src={s7} alt="image1" />
                 </div>
             </div>
         </div>

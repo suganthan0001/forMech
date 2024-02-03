@@ -14,7 +14,7 @@ const Home = () => {
       }}
     >
       <div
-        className={`home-text-section with-shadow`}
+        className="home-text-section with-shadow top-container"
         style={{
           transition: 'opacity 1s ease-in-out, transform 1s ease-in-out, scale 1s ease-in-out',
           // opacity: inView ? 1 : 0,
@@ -28,7 +28,8 @@ const Home = () => {
       >
         <h1 className="primary-heading" style={{ textAlign: 'center'}}>
           Department of Mechanical Engineering
-          <br /></h1>
+          <br />
+          </h1>
         <h2 style={{ textAlign: 'center', whiteSpace: 'pre-line', fontSize: '2rem', color: '#4c4c4c' }}>
           Offers a summer internship by the best professionals. <br />
         </h2>

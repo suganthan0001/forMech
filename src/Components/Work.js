@@ -8,7 +8,7 @@ import image5 from '../images/bioreactor.jpg';
 
 function Work() {
   return (<>
-    <h1 style={{ textAlign: "center", margin: "4% 0" ,letterSpacing: "10px"}}>Featured Courses</h1>
+    <h1 className='featured' style={{ textAlign: "center", margin: "4% 0"}}>Featured Courses</h1>
     <Carousel className='caro' fade wrap style={{ borderRadius: '25px' ,overflow: 'hidden', margin: '0 auto'}}>
       <Carousel.Item>
         <ExampleCarouselImage imageSource={image1} />

@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Reem Kufi", sans-serif !important;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .image{
@@ -110,6 +110,7 @@ nav {
 .primary-heading {
   font-size: clamp(1rem, 4vw, 3rem);
   color: #4c4c4c;
+  font-family: "Reem Kufi", sans-serif ;
   /* line-height: 5rem; */
   /* max-width: 80vw; */
 }
@@ -450,6 +451,12 @@ nav {
     max-width: 95vw;
   }
 }
+.list-group-item{
+  margin: 0 auto;
+}
+
+
+
 @media (max-width: 600px) {
   .home-bannerImage-container,
   .about-background-image-container {
@@ -487,7 +494,9 @@ nav {
     width: 60%; /* Set width to 60% for laptop screens and larger */
   }
 }
-
+.featured{
+  font-family: 'Quicksand', sans-serif;
+}
 
 
 @media (max-width: 820px) {
@@ -496,6 +505,21 @@ nav {
   }
   .high-images{
     width: 90% !important;
+  }
+  .top-container>h1{
+    font-size: 1.2rem !important; 
+  }
+  .top-container>h2,h3{
+    font-size: 1rem !important; 
+  }
+  .top-container button{
+    font-size: 1rem !important; 
+  }
+  .featured{
+    margin-top: 8% !important;
+  }
+  .primary-heading{
+    font-size: 1.5rem;
   }
 
   #video{

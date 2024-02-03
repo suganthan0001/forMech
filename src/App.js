@@ -13,6 +13,7 @@ import Schedule from "./Components/Schedule";
 import General from "./Components/General";
 // import Aboutclg from "./Components/Aboutclg";
 // import Aboutclg2 from "./Components/Aboutclg2";
+import PlacementTraining from "./Components/PlacementTraining";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Marquee />
       <Marquee2 />
       <About />
+      <PlacementTraining />
       {/* <Aboutclg /> */}
       {/* <Aboutclg2 /> */}
       <General />

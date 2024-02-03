@@ -111,7 +111,7 @@ nav {
   font-size: clamp(1rem, 4vw, 3rem);
   color: #4c4c4c;
   /* line-height: 5rem; */
-  max-width: 80vw;
+  /* max-width: 80vw; */
 }
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);

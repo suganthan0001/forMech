@@ -1,5 +1,5 @@
 import React from 'react';
-import './Marquee.css'; // Include your CSS file
+import './Marquee.css'; 
 import i1 from '../images/i1.png';
 import i2 from '../images/i2.png';
 import i3 from '../images/i3.png';

@@ -6,6 +6,7 @@ import Work from "./Components/Work";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Marquee from "./Components/Marquee"; 
+import Marquee2 from "./Components/Marquee2";
 import Schedule from "./Components/Schedule";
 // import ImageSlider from "./Components/ImmageSlider";
 // import Features from "./Components/Features";
@@ -21,6 +22,7 @@ function App() {
       <Work />
       <Schedule />
       <Marquee />
+      <Marquee2 />
       <About />
       {/* <Aboutclg /> */}
       {/* <Aboutclg2 /> */}

@@ -26,9 +26,9 @@ const Home = () => {
           gap: "20px"
         }}
       >
-        <h1 className="primary-heading" style={{ textAlign: 'center', whiteSpace: 'pre-line' }}>
-          Department Of<br />
-          M E C H A N I C A L<br /></h1>
+        <h1 className="primary-heading" style={{ textAlign: 'center'}}>
+          Department of Mechanical Engineering
+          <br /></h1>
         <h2 style={{ textAlign: 'center', whiteSpace: 'pre-line', fontSize: '2rem', color: '#4c4c4c' }}>
           Offers a summer internship by the best professionals. <br />
         </h2>

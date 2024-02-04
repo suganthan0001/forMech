@@ -5,13 +5,13 @@ function PlacementTraining() {
     return (
 
         <div className='table-container'>
-            <div className='item header'>
+            <div className='itemh header'>
                 YEAR
             </div>
-            <div className='item header'>
+            <div className='itemh header'>
                 SEMESTER
             </div>
-            <div className='item header'>
+            <div className='itemh header'>
                 ACTIVITY
             </div>
             <div className='item item1'>

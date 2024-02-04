@@ -4,15 +4,24 @@
   }
   
   .item {
-    background-color: #f5f5f5;
+    background-color: #F3F8FF;
     padding: 10px;
     text-align: center;
     border: 1px solid #ccc;
     transition: background-color 0.3s ease; /* Adding transition for smooth effect */
+    border-radius: 10px;
+  }
+  .itemh {
+    background-color: #F3F8FF;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease; /* Adding transition for smooth effect */
+    border-radius: 10px;
   }
   
   .item:hover {
-    background-color: #e0e0e0; /* Change background color on hover */
+    background-color: #e8edf4; /* Change background color on hover */
   }
   
   .header {

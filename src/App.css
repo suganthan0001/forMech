@@ -545,6 +545,16 @@ nav {
 
 
 @media (max-width: 820px) {
+  .modal-small .modal-dialog {
+    max-width: 80%; 
+    margin: 0 auto;
+  }
+  .modal-small li{
+    font-size: large;
+  }
+  .click-to-view{
+    font-size: small;
+  }
   .highlights{
     font-size: 2rem !important;
   }

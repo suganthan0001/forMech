@@ -522,6 +522,7 @@ nav {
   margin: 0.5rem 0;
 }
 
+
 /* Add this CSS at the end of your file */
 .with-shadow {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -532,24 +533,39 @@ nav {
   border-radius: 10px;
 }
 
-
-
-
 @media (min-width: 992px) {
   .caro {
     width: 60%; /* Set width to 60% for laptop screens and larger */
-  }
+  }  
 }
 .featured{
   font-family: 'Quicksand', sans-serif;
 }
-
-
+.caro-item{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.caro-item img{
+  border-radius: 20px;
+}
 @media (max-width: 820px) {
   .about-section-text-container li{
     font-size: medium;
     margin: 0 auto;
     min-width: 100%;
+  }
+  .caro-item{
+    height: fit-content !important;
+  }
+
+  .caro h1{
+    font-size: medium;
+    color: white;
+    margin: 0;
+  }
+  .caro{
+    width: 100% !important;
   }
 
   .modal-small .modal-dialog {
@@ -589,4 +605,37 @@ nav {
     width: 100%;
   }
 
+}
+
+
+/* Custom CSS to style carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+  color: black; /* Set the color of the controls to black */
+  border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; /* Set the background color of the control icons to black */
+  border-radius: 10px;
+}
+
+.carousel-control-prev-icon:before,
+.carousel-control-next-icon:before {
+  color: black; /* Set the color of the control icons to black */
+  border-radius: 10px;
+}
+
+/* Override Bootstrap's default hover effect for carousel controls */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  color: black; /* Set the hover color of the controls to black */
+  border-radius: 10px;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  background-color: black; /* Set the hover background color of the control icons to black */
+  border-radius: 10px;
 }

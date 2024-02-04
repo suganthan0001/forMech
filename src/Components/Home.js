@@ -34,8 +34,9 @@ const Home = () => {
           Offers a summer internship by the best professionals. <br />
         </h2>
         <h3 style={{ textAlign: 'center', whiteSpace: 'pre-line', fontSize: '2rem', color: '#4c4c4c' }}>
-          From 15th April to 24th May <br /></h3>
-        <a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSc3Ktu6UzX9pNLQWzd6yqhO0JVN7tSf3sauPPmgZPYKwyuzuA/viewform?usp=sf_link">
+        From 15<sup>th</sup> April to 24<sup>th</sup> May
+ <br /></h3>
+        <a target="_blank" rel="noreferrer" href="https://forms.gle/RvopA1DgqHHCYZyz9">
           <button className="btn btn-lg btn-outline-primary" >
             Register Now <FontAwesomeIcon icon={faArrowRight} style={{ marginLeft: "5px" }} />
           </button>

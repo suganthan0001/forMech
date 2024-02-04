@@ -5,10 +5,10 @@ import { faExpand } from '@fortawesome/free-solid-svg-icons';
 
 const ImageSlider = () => {
   const imageStyle = {
-    width: '100%', 
+    width: '100%',
     height: 'auto',
-    borderRadius: '10px', 
-    transition: 'opacity 1s ease-in-out' 
+    borderRadius: '10px',
+    transition: 'opacity 1s ease-in-out'
   };
   useEffect(
     () => {
@@ -23,27 +23,20 @@ const ImageSlider = () => {
         }
       });
     }
-  ,[])
+    , [])
 
-  return (
-    // <div style={containerStyle}>
-    //   <img
-    //     src={chart}
-    //     alt='altIImage'
-    //     style={imageStyle}
-    //     className='high-images'
-    //   />
-    // </div>
+  return (<>
+    <h2 className='scope'>Scope of Mechanical Engineering</h2>
     <div class="container">
-    <img
+      <img
         src={chart}
         alt='altIImage'
         style={imageStyle}
         className='high-images img-fluid'
         id='fullscreen-image'
       />
-    <button id="fullscreen-button" className="btn btn-outline-dark btn-sm"><FontAwesomeIcon icon={faExpand} /></button>
-</div>
+      <button id="fullscreen-button" className="btn btn-outline-dark btn-sm"><FontAwesomeIcon icon={faExpand} /></button>
+    </div></>
   );
 };
 

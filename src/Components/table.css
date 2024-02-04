@@ -1,5 +1,5 @@
 .table-container {
-    padding-top: 5% !important;
+    padding-top: 2% !important;
     padding: 10px;
   }
   
@@ -19,7 +19,10 @@
     transition: background-color 0.3s ease; /* Adding transition for smooth effect */
     border-radius: 5px;
   }
-  
+  .scope{
+    margin: 2% 0;
+    text-align: center;
+  }
   .item:hover {
     background-color: #e8edf4; /* Change background color on hover */
   }

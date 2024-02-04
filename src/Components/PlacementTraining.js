@@ -3,7 +3,8 @@ import "./table.css"
 
 function PlacementTraining() {
     return (
-
+        <>
+        <h2 className='scope' >Placement Training</h2>
         <div className='table-container'>
             <div className='itemh header'>
                 YEAR
@@ -108,6 +109,7 @@ function PlacementTraining() {
             Mock Interview
             </div>
         </div>
+        </>
     );
 }
 

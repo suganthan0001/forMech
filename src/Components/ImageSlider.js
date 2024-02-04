@@ -1,5 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import chart from "../images/chart.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExpand } from '@fortawesome/free-solid-svg-icons';
+
 // import image09 from '../images/';
 // import image10 from '../images/';
 // import image11 from '../images';
@@ -25,13 +28,13 @@ const ImageSlider = () => {
   //   return images[index];
   // };
 
-  const containerStyle = {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    textAlign: 'center',
-    marginTop: '5vh', // Add margin-top
-  };
+  // const containerStyle = {
+  //   display: 'flex',
+  //   flexDirection: 'column',
+  //   alignItems: 'center',
+  //   textAlign: 'center',
+  //   marginTop: '5vh', // Add margin-top
+  // };
 
   const imageStyle = {
     width: '100%', // Adjust the width as needed
@@ -39,17 +42,42 @@ const ImageSlider = () => {
     borderRadius: '10px', // Add border radius
     transition: 'opacity 1s ease-in-out' // Add transition
   };
+  useEffect(
+    () => {
+      document.getElementById("fullscreen-button").addEventListener("click", function () {
+        const element = document.getElementById("fullscreen-image");
+        if (!document.fullscreenElement) {
+          element.requestFullscreen().catch(err => {
+            console.error(`Error attempting to enable full-screen mode: ${err.message}`);
+          });
+        } else {
+          document.exitFullscreen();
+        }
+      });
+    }
+  ,[])
 
   return (
-    <div style={containerStyle}>
-      <img
+    // <div style={containerStyle}>
+    //   <img
+    //     src={chart}
+    //     alt='altIImage'
+    //     style={imageStyle}
+    //     className='high-images'
+    //   />
+    // </div>
+    <div class="container">
+    <img
         src={chart}
         alt='altIImage'
         style={imageStyle}
-        className='high-images'
+        className='high-images img-fluid'
+        id='fullscreen-image'
       />
-    </div>
+    <button id="fullscreen-button" className="btn btn-outline-dark btn-sm"><FontAwesomeIcon icon={faExpand} /></button>
+</div>
   );
 };
+
 
 export default ImageSlider;

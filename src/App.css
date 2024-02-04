@@ -498,6 +498,17 @@ nav {
   }
 }
 
+.container {
+  position: relative;
+}
+
+#fullscreen-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+
 
 .mailtext:hover{
   box-shadow: 0 0 10px blue;

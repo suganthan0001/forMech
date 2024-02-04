@@ -17,7 +17,7 @@
     text-align: center;
     border: 1px solid #ccc;
     transition: background-color 0.3s ease; /* Adding transition for smooth effect */
-    border-radius: 10px;
+    border-radius: 5px;
   }
   
   .item:hover {

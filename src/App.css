@@ -546,6 +546,10 @@ nav {
 
 
 @media (max-width: 820px) {
+  .about-section-text-container li{
+    font-size: small;
+  }
+
   .modal-small .modal-dialog {
     max-width: 80%; 
     margin: 0 auto;
